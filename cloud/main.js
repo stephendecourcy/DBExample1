@@ -8,7 +8,7 @@ var util = require('util');
 exports.storeInfo = function(params, callback) {
   $fh.db({
   "act": "create",
-  "type": "myFirstEntity",
+  "type": "myFirstCollection",
   "fields": {
     "name": params.name,
     "work": params.work
