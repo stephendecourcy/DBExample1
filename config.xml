@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget id="com.feedhenry.keyang.xiang.db.example.%28first%29" version="" width="320" height="480" start="index.html">
+<title>DB Example (first)</title>
+<description>First DB example, uses create method only</description>
+<author name="" email="keyang.xiang@feedhenry.com" url=""></author>
+<license></license>
+</widget>

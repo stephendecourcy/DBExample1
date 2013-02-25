@@ -1,0 +1,37 @@
+[{
+  "fields": {
+    "accessType": "",
+    "collapsed": false,
+    "color": "",
+    "config": {
+      "deploy": {"url": {"dev": "https://spargonet-xrg0zsknogsmqqbpj4oi3edr-dev_spargonet.df.dev.e111.feedhenry.net"}},
+      "icon": {"small": "default"},
+      "notification_email": "keyang.xiang@feedhenry.com",
+      "preview": {"device": "iphone_4"}
+    },
+    "containerCriteria": "",
+    "description": "First DB example, uses create method only",
+    "disabled": false,
+    "discover": false,
+    "dock": "",
+    "email": "keyang.xiang@feedhenry.com",
+    "fixedPos": false,
+    "height": 480,
+    "iconLarge": "",
+    "iconSmall": "",
+    "mobileFullScreen": false,
+    "origin": "",
+    "overrides": {},
+    "params": {},
+    "prefsEditable": false,
+    "ratingData": {},
+    "screenShot": "",
+    "sharable": false,
+    "sizeEditable": false,
+    "title": "DB Example (first)",
+    "titleEditable": false,
+    "type": "",
+    "width": 320
+  },
+  "sharing": []
+}]
