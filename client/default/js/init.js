@@ -34,7 +34,7 @@ $fh.ready(function() {
     // See: http://docs.feedhenry.com/wiki/Actions
     $fh.act(
       {
-        act:'storeInfo',
+        act:'retrieveInfo',
         req: {
           name : 'Eoin',
           work : 'Feedhenry'
