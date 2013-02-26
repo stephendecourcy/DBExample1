@@ -36,14 +36,13 @@ $fh.ready(function() {
       {
         act:'retrieveInfo',
         req: {
-          name : 'Eoin',
-          work : 'Feedhenry'
+          type : 'myFirstCollection'
         }
       },
       function(res) {
-        var name = res.data.fields.name;
-        var work = res.data.fields.work;
-        document.getElementById('cloudConfig').innerHTML = "<p>Name: " + name + "<br/>Work: "+work+"</p>";
+        console.log(res);
+        var res = res.list;
+        document.getElementById('cloudConfig').innerHTML = "";
       },
       function(code,errorprops,params) {
         alert('An error occured: ' + code + ' : ' + errorprops);
