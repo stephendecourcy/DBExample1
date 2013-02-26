@@ -27,12 +27,7 @@ exports.retrieveInfo = function(params, callback) {
 $fh.db({
   "act": "list",
   "type": "myFirstCollection",
-}, function(err, data) {
-  if (err) {
-    console.log("Error " + err)
-  } else {
-    console.log(JSON.stringify(data))
-  }
-  return callback(null, {data: data});
+},  function(err, data){
+  return callback(err,data);
 });
 }
