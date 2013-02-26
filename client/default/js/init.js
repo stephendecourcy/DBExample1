@@ -15,7 +15,7 @@ $fh.ready(function() {
       {
         act:'storeInfo',
         req: {
-          name : 'Eoin',
+          name : 'Stephen',
           work : 'Feedhenry'
         }
       },
