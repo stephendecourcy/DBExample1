@@ -43,7 +43,7 @@ $fh.ready(function() {
         console.log(res);
         var res = res.list;
         document.getElementById('cloudConfig').innerHTML = "";
-        for (var 1=0;i<res.length;i++){
+        for (var i=0;i<res.length;i++){
           var name = res[i].field.name;
           var work = res[i].field.work;
           document.detElementById('cloudconfig').innerHTML += "<p>Name: " + name + "<br/>Work: "+work+"</p>";          
