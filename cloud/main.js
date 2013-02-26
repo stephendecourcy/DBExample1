@@ -26,7 +26,7 @@ exports.storeInfo = function(params, callback) {
 exports.retrieveInfo = function(params, callback) {
 $fh.db({
   "act": "list",
-  "type": "myFirstEntity",
+  "type": "myFirstCollection",
 }, function(err, data) {
   if (err) {
     console.log("Error " + err)
