@@ -28,22 +28,11 @@ $fh.db({
   "act": "list",
   "type": "myFirstEntity",
 }, function(err, data) {
-  /* output 
-    {
-      "count": 1,
-      "list": [{
-        "fields": {
-          "address1": "22 Blogger Lane",
-          "address2": "Bloggsville",
-          "country": "Bloggland",
-          "fistName": "Joe",
-          "lastName": "Bloggs",
-          "phone": "555-123456"
-        },
-        "guid": "4e563ea44fe8e7fc19000002",
-        "type": "myFirstEntity"
-      }]
-    }
-    */
+  if (err) {
+    console.log("Error " + err)
+  } else {
+    console.log(JSON.stringify(data))
+  }
+  return callback(null, {data: data});
 });
 }
